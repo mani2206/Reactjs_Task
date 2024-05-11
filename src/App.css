@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  height: 50px;
+  display: grid;
+  place-content: center;
+}
+
+.rectangle{
+  width:100px;
+  height:20vh;
+  border: 1px solid red;
+  border-radius: 6px;
+}
